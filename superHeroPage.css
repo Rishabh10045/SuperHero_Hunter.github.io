@@ -1,0 +1,77 @@
+html {    
+    background: url('./Images/avengers-workout.webp') no-repeat center fixed;     
+    background-size: cover;
+    color: white;
+}
+
+#nav-bar{
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    height: 10%;
+    width: 100%;
+    justify-content: space-between;    
+}
+a{
+    color: beige;
+    padding-right: 50px;
+}
+img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin: 25px;
+}
+#basic-info {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    width: 100%;
+    height: 45%;
+}
+#description{
+    height: 200px;
+    width: 800px;
+}
+#hero-name{
+    position: relative;
+    height: fit-content;
+    width: fit-content;
+    left: 40%;
+    
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.info-list{
+    border: 2px dotted red;
+    border-radius: 10px;
+    background-color: violet;
+    margin: 20px;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    border: 2px dotted greenyellow;
+    background-color: #2d6dbf;
+    border-radius: 35px;
+    margin: 10px;
+    width: 500px;
+    text-align: center;
+}
+
+#links{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: none;
+}

@@ -1,0 +1,78 @@
+html {    
+    background: url('./Images/avengers-workout.webp') no-repeat center fixed;     
+    background-size: cover;
+    color: white;
+}
+
+#super-hero-label {
+    position: relative;
+    left: 35%;    
+}
+#super-hero-label input{
+    position: relative;
+    left: 1%;
+    height: 35px;
+    width: 350px;
+    border-radius: 25px;
+    border: 2px solid blueviolet;
+    border: 120%;   
+}
+#super-hero-label i{
+    position: relative;
+    left: -2.5%; 
+    color: blueviolet;
+}
+a{
+    color: beige;
+    padding-right: 50px;
+}
+#nav-bar{
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    height: 10%;
+    width: 100%;
+    justify-content: space-between;    
+}
+h1{
+   font-size: 50px;
+}
+h3{
+    position: relative;
+    left:-9%;
+}
+
+/* Hero Search List CSS....*/
+#heroDetails{
+    display: flex;
+    flex-direction:  row;
+    justify-content: space-between;
+    align-items: center;
+}
+#heroDetails img{
+    width: 60px;
+    height: 60px;
+    border-radius: 35px;
+}
+#heroDetails i{
+    position: relative;
+    left:-5%;
+}
+
+ul{
+    list-style-type: none;
+    
+}
+ li{
+    position: relative;
+    border: 2px dotted greenyellow;
+    background-color: #2d6dbf;
+    border-radius: 35px;
+    margin: 10px;
+    width: 500px;
+    left: 28%;
+}
+li:hover{
+    background-color: pink;
+}
