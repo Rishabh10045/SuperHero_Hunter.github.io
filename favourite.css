@@ -1,0 +1,87 @@
+html {    
+    background: url('./Images/avengers-workout.webp') no-repeat center fixed;     
+    background-size: cover;
+    color: white;
+}
+
+#nav-bar{
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    height: 10%;
+    width: 100%;
+    justify-content: space-between;    
+}
+a{
+    color: beige;
+    padding-right: 50px;
+}
+
+#fav-hero-label h1{
+    position: relative;
+    left: 35%;    
+}
+
+
+/* .hide{
+    display: none;
+    position: relative;
+    top: -8%;
+    border-radius: 10px;
+    color: beige;
+    border: 2px solid lightcoral;
+    height: 25px;
+    width: 250px; 
+} */
+
+/* Hero Search List CSS....*/
+#heroDetails{
+    display: flex;
+    flex-direction:  row;
+    justify-content: space-between;
+    align-items: center;
+}
+#heroDetails img{
+    width: 60px;
+    height: 60px;
+    border-radius: 35px;
+}
+#heroDetails i{
+    position: relative;
+    left:-5%;
+}
+/* #heroDetails i:hover+.hide{
+    /* position: relative; */
+    /* top: -8%;
+    left: 25%; */
+    border-radius: 10px;
+    display: inline;
+    color: beige;
+    border: 2px solid lightcoral;
+    height: 25px;
+    width: 250px; 
+    /* transition-property: all;
+    transition-duration: 1.25s; */
+} */
+ul{
+    list-style-type: none;
+    
+}
+ li{
+    position: relative;
+    border: 2px dotted greenyellow;
+    background-color: #2d6dbf;
+    border-radius: 35px;
+    margin: 10px;
+    width: 500px;
+    left: 28%;
+}
+li:hover{
+    background-color: pink;
+}
+/* li:hover + .hide{
+    border: 2px solid lightcoral;
+    height: 50px;
+    width: 100px;
+} */
