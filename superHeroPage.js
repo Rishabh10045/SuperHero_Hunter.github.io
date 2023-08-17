@@ -57,6 +57,14 @@ function renderSearchList(list,x){
             addTaskToDom(list[i],x);
         }
     }
+    else if(list.length ==0){
+        const li = document.createElement('li');
+ 
+    li.innerHTML =`No information available
+    `;
+    
+    listofInfo[x].append(li);
+    }
     else{
         for(let i=0;i<8;i++){
          
